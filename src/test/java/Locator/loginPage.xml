@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+   <Login>
+      	<Iagree><![CDATA[//a[contains(text(), 'I agree')]]]></Iagree>
+      	<Loginapp><![CDATA[//a[contains(text(), 'Sign In')]]]></Loginapp>
+      	<Loginpage><![CDATA[//a[@title='#InfluensterAwards']]]></Loginpage>
+      	
+      	<Started><![CDATA[//a[@class='btn btn-orange-fill register']]]></Started>
+      	<Email><![CDATA[//input[@id="id_username"]]]></Email>
+      	<Pwd><![CDATA[//input[@id="id_password"]]]></Pwd>
+      	<Submit><![CDATA[//button[@type="submit"]]]></Submit>
+      	
+
+      	<Productsearch><![CDATA[//input[@placeholder='Dry Shampoo, Top Moisturizer, Greek Yogurt, Sally Hansen and more ']]]></Productsearch>
+        <Search><![CDATA[//button[@title='Search']]]></Search>
+  
+  <Productclick><![CDATA[//p[contains(text(),"I'm Real Sheet Mask - Lotus")]]]></Productclick>
+ 
+ <AllQA><![CDATA[//a[contains(text(),"See all 2 Q&A")]]]></AllQA>
+ <AskQA><![CDATA[//button[@class='btn btn-outline-gray product-question-button']]]></AskQA>
+ <AllQAA><![CDATA[//button[@class="question-probe-button"]]]></AllQAA>
+ 
+
+   </Login>
+	 
+</Locators>
